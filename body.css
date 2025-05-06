@@ -1,0 +1,58 @@
+body{
+     font-family: lao_sisaket;
+ }
+ .a{
+    border-radius: 10px;
+    box-shadow: 2px 2px 6px black;
+    height: 400px;
+ }
+ .a:hover{
+    box-shadow: 2px 2px 6px red;
+ }
+ .product-image{
+    border-radius: 20px;
+    filter: drop-shadow(0px 0px 10px rgb(4, 0, 255)
+    );
+ }
+ .product-image:hover{
+    filter: drop-shadow(0px 0px 10px rgb(0, 234, 255)
+    );
+ }
+  .product-alert{
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px rgb(82, 81, 81);
+  }
+  .product-alert:hover{
+    box-shadow: 2px 2px 8px rgb(225, 0, 255);
+  }
+  .navbar-brand{
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(209, 209, 193);
+  }
+  .navbar-brand:hover{
+    box-shadow: 0px 0px 10px blue;
+  }
+  .view-all{
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px blue;
+    padding: 10px;
+  }
+  .view-all:hover{
+    box-shadow: 0px 0px 10px rgb(7, 190, 71);
+  }
+  /* /// img  */
+
+  .img{
+    border-radius: 10px;
+    height: 500px;
+    top:7%;
+    box-shadow: 2px 2px 20px rgb(181, 168, 168);
+
+  }
+  .img:hover{
+    box-shadow: 0px 0px 20px rgb(89, 255, 0);
+  }
+  .site-header{
+    height: 600px;
+  }
