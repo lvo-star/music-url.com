@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.css">
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="hh.css">
+    <script src="http://unpkg.com/ionicons@4.4.2/dist/ionicons.js"></script>
+    <link rel="stylesheet" href="ionicons-2.0.1/css/ionicons.css">
+
+</head>
+<body>
+    <nav id="lu" class="navbar navbar-expand-sm sticky-top navbar-kark">
+        <div class="container-fluid">
+            <ul class="navbar nav">
+                <li nav-item>
+                    <a class="nav-link text-white" href="index.html">ໜ້າຫຼັກ</a>
+                </li>
+                <li nav-item>
+                    <a class="nav-link text-white" href="ປະຫວັດຄວາມເປັນມາ.html">ປະຫວັດຄວາມເປັນມາ</a>
+                </li>
+                <li nav-item >
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="" role="button" data-bs-toggle="dropdown">
+                            ບູນປະເພນີ
+                        </a>
+                        <ul class="dropdown-menu" >
+                        <li><a class="dropdown-item" href="ນຸງຖື.html">ການນຸງຖືຂອງມົ້ງ</a></li>
+                        <li><a class="dropdown-item" href="ອາຊີບ.html">ອາຊີບ</a></li>
+                        <li><a class="dropdown-item" href="ບູນປະເພນີ.html">ບຸນປະເພນີຂອງເຜົ່າມົ້ງ</a></li>
+                    </ul>
+                </li>
+                <li nav-item>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white" href="" role="button" data-bs-toggle="dropdown">
+                    ພື້ນທີ່ຕັ້ງເຮືອນຂອງມົ້ງ
+                </a>
+                 <ul class="dropdown-menu">
+                
+                        <li><a class="dropdown-item" href="ພາສາ.html">ພາສາປາກເວົ້າ</a></li>
+                        <li><a class="dropdown-item" href="ທີ່ຕັ້ງ.html">ທີ່ຕັ້ງ</a></li>
+                    </ul>
+                </li>
+                <li nav-item>
+                    <a class="nav-link text-white" href="ຮູບພາບ.html">ຮູບພາບ</a>
+                </li>
+                <li nav-item>
+                    <a class="nav-link text-white" href="develop.html">ຜູ້ພັດທະນາ</a>
+
+                    </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div id="onlyme" class="row">
+            <div class="card-header text-center text-white mt-5">
+                <h1 class="mt-5"><i>>>>ສຳລັບຜູ້ພັດທະນາ<<<</i></h1>
+            </div>
+            <div class="row">
+                <div class="col-sm-5 text-white ">
+                    <script>
+                        today=new Date();
+                         dd=today.getDay();
+                        days=new Array("ທີດ(Sunday)" , "ຈັນ(Monday" , "ອັງຄາ(tuesday" , "ພຸດ(wednesday)" , "ພະຫັດ(thursday" , "ສຸກ(firday)" , "ເສົາ(saturday)");
+                        document.write("ມື້ນີ້ແມ່ນວັນ:",days[dd]+"<br>");
+               
+                          today=new Date();
+                                        d=today.getDate();
+                                        m=today.getMonth()+1;
+                                        y=today.getFullYear();
+                                        document.write("ມື້ນີ້ແມ່ນວັນທີ່" + d + "/" + m + "/" +y);
+                                        
+                       function startTime(){
+                           var today=new Date();
+                           var h= today.getHours();
+                           var m=today.getMinutes();
+                           var s=today.getSeconds();
+                           m= checkTime(m);
+                           s=checkTime(s);
+                           document.getElementById("txt").innerHTML="ຊົ້ວໂມງ"+":" +h+":"+m+":"+s;
+                           var t=setTimeout(startTime,500);
+                       }
+                       function checkTime(i){
+                           if(i<10){
+                              
+                           }
+                           return i;
+                       }
+                   </script>
+                   <body onload="startTime()">
+                       <div id="txt"></div>
+                   </body>
+                </div>
+                <div id="you" class="col-sm-7 mt-5">
+                    <h3><b><u>ຊື່ແລະນາມສະກູນ:</u></b> <i class="ion-person-add">  ເຮີ່ ຄ້າ</i></h3> 
+                    <h3><b><u> ເພດ:</u></b><i class="ion-person-add"> ຊາຍ</i></h3>
+                     <h3><b><u>ອາຍຸ:</u></b> 18 ປີ</h3>
+                      <h3><b><u>ທີ່ຢູ່:</u></b> ບ ໂພນເລົ່າ ມ ລອ້ງຊານ ຂ ໄຊສົມບູນ</h3>
+                     <h3><b><u>ເບີໂທ:( WhatsApp )</u></b> :<i class="ion-ios-telephone">:  76565552</i></h3>
+                      <h3><b><u>facebook:</u></b> ເກ້ຍຮັກເຮີ່</h3>
+                     <h3><b><u>ສະຖານະ:</u></b> ການສືກສາ</h3>
+                      <h3><b><u>ທີ່ຢູ່ປັດຈຸບັນ:</u></b> ບ ໂນນສະຫວ່າງ ມ ວຽງຄຳ ຂ ວຽງຈັນ</h3>
+                      <h3><b><u>ໜາຍເຫດ:</u></b> ຖ້າຫາກຂາດບອ່ນໃດກໍ່ຂໍໂທດ ຂໍອະໄພດວ້ຍ</h3>
+                      <h3><b><u>ທີ່ປືກສາ:</u></b> ອ ຈ ເບີງຮັກ ອີນສະຫວັນ</h3>
+                    
+                </div>
+            </div>
+            
+        </div>
+        <div id="give" class="card-footer text-center mt">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 mb-5">
+                    <h4 class="mt-3">ຖ້າວ່າທ່ານສົມໃຈຕີດຕໍ່ໄດ້</h4>
+                    <p><i class="fa fa-map-marker-alt mr-2"></i>    BCT college for IT education</p>
+                    <p><i class="fa fa-phone-alt mr-2"></i>call:   +856 76900587</p>
+                    <p><i class="fa fa-envelope mr-2"></i> email:   herkhaloveyou@gmail.com</p>
+            </div>
+            <div class="col-lg-4 col-md-4 mb-5">
+            <h4 class="text-dark mb-4 mt-3">ຕີດຕໍ່</h4>
+            <div class="d-flex flex-column justify-content-start">
+                <p class="text-dark">ພັດທະນາໂດຍນັກສືກສາ ບີຊີທີ ປິ1 </p>
+                <p class="text-dark">ກຽ່ວກັບພວກເຮົາ</p>
+                <p class="text-dark">ຂ່າວ</p>
+                <p class="text-dark">ເພື້ອນຮວ່ມງານ</p>
+            </div>
+        </div>
+            <div class="col-lg-4 col-md-6 mb-5 ">
+                <h2 class="text-dark mt-3">ຂ່າວໄໝ່</h2>
+                <form action="">
+                    <div class="form-group">
+                        <input id="d" type="text" class="form-control" placeholder="Your name.."required="required">
+                    </div>
+                    <br>
+                    <div class="form-group ">
+                        <input id="e" type="email" class="form-control" placeholder="Your email..">
+                    </div>
+                    <br>
+                    <div>
+                        <button id="f" class="btn btn-outline-success bg-info" type="submit">Submit Now</button>
+                    </div>
+                </form><br><br>
+                <a class="btn btn-outline-primary rounded-circle text-center mr-2 px0" style="width: 38px;" height="38px;" href="http://www.Facebook.com" target="_blank"><i class="ion-social-facebook"></i></a>
+                <a class="btn btn-outline-danger rounded-circle text-center mr-2 px0" style="width: 38px;" height="38px;" href="http://www.Youtube.com" target="_blank"><i class="ion-social-youtube"></i></a>
+                <a class="btn btn-outline-success rounded-circle text-center mr-2 px0" style="width: 38px;" height="38px;" href="http://www.WhatsApp.com" target="_blank"><i class="ion-social-whatsapp"></i></a>
+
+        </div>
+
+    </div>
+</body>
+</html>

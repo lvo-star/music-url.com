@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="hh.css">
+    <script src="http://unpkg.com/ionicons@4.4.2/dist/ionicons.js"></script>
+   
+    
+</head>
+<body>
+        <div class="container-fluid ">
+            <div class="card">
+                <div class="card-header bg-dark text-white">
+                    <h1><center><b><i><font face="Times New roman"> >>> Welcome ToMy Website <<< </font></i></b></center></h1>
+                    <h3><center><b><i>ຍີນດີຕອ້ນຮັບເຂົ້າສູ່ເວັບໄຊ໌</i></b></center></h3>
+                    <div id="cloth" class="row">
+                        <div class="col-sm-3 mt-5">
+                            <script>
+                                today=new Date();
+                                 dd=today.getDay();
+                                days=new Array("ທີດ(Sunday)" , "ຈັນ(Monday" , "ອັງຄາ(tuesday" , "ພຸດ(wednesday)" , "ພະຫັດ(thursday" , "ສຸກ(firday)" , "ເສົາ(saturday)");
+                                document.write("ມື້ນີ້ແມ່ນວັນ:",days[dd]+"<br>");
+                       
+                                  today=new Date();
+                                                d=today.getDate();
+                                                m=today.getMonth()+1;
+                                                y=today.getFullYear();
+                                                document.write("ມື້ນີ້ແມ່ນວັນທີ່" + d + "/" + m + "/" +y);
+                                                
+                               function startTime(){
+                                   var today=new Date();
+                                   var h= today.getHours();
+                                   var m=today.getMinutes();
+                                   var s=today.getSeconds();
+                                   m= checkTime(m);
+                                   s=checkTime(s);
+                                   document.getElementById("txt").innerHTML="ຊົ້ວໂມງ"+":" +h+":"+m+":"+s;
+                                   var t=setTimeout(startTime,500);
+                               }
+                               function checkTime(i){
+                                   if(i<10){
+                                      
+                                   }
+                                   return i;
+                               }
+                           </script>
+                           <body onload="startTime()">
+                               <div id="txt"></div>
+                           </body><br>
+                             <video autobuffer autooop controls autoplay class=" col-md-8 col-xs-8 col-sm-8 col-lg-8" id="r"><source src="img/hmoob story.mp4" style="width: 100%;" height="100px"></video>
+                            <br><br>
+                        </div>
+                        <div class="col-sm-6 text-center mt-5">
+                         
+                            <h1 class="text-center"> ຂໍອະໄພຈາກວີດິໂອ</h1>
+                        <p class="text-center"><i>ນີ້ຄືການເອົາເມຍໃນສະໄໜ່ກອ່ນແຕ່ວີທີນີ້ແມ່ນການເອົາແບບງາ່ຍ ຕາມຮິດຄອງຂອງຊົນເຜົ່າມົ້ງໃນສະໄໜ່ກອ່ນຖ້າວ່າເຮົາຮັກຖືກລູກສາວເຂົາແຕ່ເຂົາບໍ່ຮັກເຮົາກໍ່ຕາມໃຊ້ວີທີ່ນີ້ໂລດບໍ່ຜີດເພາະເອົາມາເປັນເມຍຊື່ໆ ແຕ່ໃນປັດຈູບັນນີ້ບໍ່ເຮັດແບບນັ້ນລະ ຄອ່ຍລົມກັນໄປຖ້າຫາກຮັກກັນລະຄອ່ຍເອົາກັນ</i></p>
+                        
+                        </div>
+                        <div class="col-sm-3 mt-5">
+                            <img id="p" class="img-fluid" src="img/f (19).jpg" style="width:500px;" height="800px;">
+                            
+                            <h4 class="mt-3"><i> His work ໄດ້ເລີ່ມຕົ້ນຈາກການເດີນທາງຂອງລາວຜູ້ຊາຍຄົນໜື່ງທີ່ມີນາມວ່າ herkha ທີ່ໄດ້ເດີ່ນທາງໄປຫາຊົນເຜົ່າຕ່າງໆຢູ່ທົ່ວປະເທດໂດຍຫວັງວ່າຈະນຳເອົາຜົນງານ ທີ່ປານີດຂອງກຸ່ມຊົນເຜົ່າທີ່ດວ້ຍໂອກາດມາເຜີຍເເຜ່ສາຍຕາຂອງຄົນທົ້ວໂລກ</i></h4>
+                           
+                        </div>
+                        
+                    </div>
+                <nav class="navbar navbar-expand-sm sticky-top bg-secondary mt-2 navbar-kark">
+                    <div class="container">
+                        <ul class="navbar nav">
+                            <li nav-item>
+                                <a class="nav-link text-white" href="index.html">ໜ້າຫຼັກ</a>
+                            </li>
+                            <li nav-item>
+                                <a class="nav-link text-white" href="ປະຫວັດຄວາມເປັນມາ.html">ປະຫວັດຄວາມເປັນມາ</a>
+                            </li>
+                            <li nav-item >
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle text-white" href="" role="button" data-bs-toggle="dropdown">
+                                        ບູນປະເພນີ
+                                    </a>
+                                    <ul class="dropdown-menu" >
+                                    <li><a class="dropdown-item" href="ນຸງຖື.html">ການນຸງຖືຂອງມົ້ງ</a></li>
+                                    <li><a class="dropdown-item" href="ອາຊີບ.html">ອາຊີບ</a></li>
+                                    <li><a class="dropdown-item" href="ບູນປະເພນີ.html">ບຸນປະເພນີຂອງເຜົ່າມົ້ງ</a></li>
+                                </ul>
+                            </li>
+                            <li nav-item>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white" href="" role="button" data-bs-toggle="dropdown">
+                                ພື້ນທີ່ຕັ້ງເຮືອນຂອງມົ້ງ
+                            </a>
+                             <ul class="dropdown-menu">
+                                
+                                    <li><a class="dropdown-item" href="ພາສາ.html">ພາສາປາກເວົ້າ</a></li>
+                                    <li><a class="dropdown-item" href="ທີ່ຕັ້ງ.html">ທີ່ຕັ້ງ</a></li>
+                                </ul>
+                            </li>
+                            <li nav-item>
+                                <a class="nav-link text-white" href="ຮູບພາບ.html">ຮູບພາບ</a>
+                            </li>
+                            <li nav-item>
+                                <a class="nav-link text-white" href="develop.html">ຜູ້ພັດທະນາ</a>
+    
+                                </li>
+                        </ul>
+                    </div>
+                </nav>
+               <!---ເປີດ-->
+               
+               <div class="container">
+                   <div class="card mt-4">
+                    <div class="card-header text-center bg-info text-dark">
+                        <h2><i> " ເຄື່ອງນຸ່ງຫົ່ມຂອງແມ່ຍີງ "</i></h2>
+                        <div class="row bg-primary mt-4">
+                            <div class="col-sm-4">
+                               
+                             <img id="rr" class="img-fluid" src="img/cloth1.PNG" style="width: 490px;" height="900px;">
+                            </div>
+                            <div id="ss" class="col-sm-4">
+                                <img class="img-fluid" src="img/cloth3.jpg" style="width: 280px;" height="800px;">
+                            </div>
+                            <div id="ww" class="col-sm-4">
+                                <img class="img-fluid" src="img/cloth2.jpg" alt="">
+                            </div>
+                        </div>
+                        
+                   </div>
+                   </div>
+               </div>
+               <!---ປີດ-->
+               <!---ເປີດ-->
+               <div class="container">
+                   <div class="card">
+                       <div class="card-header bg-info text-center text-dark">
+                           <h2> " ເຄື່ອງນຸ່ງຫົ່ມຂອງຜູ້ຊາຍ "</h2>
+                           <div class="row align-item-center bg-primary">
+                            <div class="col-sm-4 text-center" style="width: 450px;">
+                                <img id="oo" class="img-fluid" src="img/cloth4.jpg" height="300px">
+                            </div>
+                            <div class="col-sm-4 text-center" style="width: 335px;">
+                                <img id="qq" class="img-fluid" src="img/cloth5.PNG" height="300px">
+                            </div>
+                            <div class="col-sm-4 text-center" style="width:432px;">
+                             <img id="nn" class="img-fluid" src="img/cloth6.jpg" height="400px">
+                            </div>
+                            <h4 class="text-dark mt-3 text-white">&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;ເປັນທີ່ຍອມຮັບກັນແລ້ວວ່າໃນສັງຄົມປັດຈຸບັນ ການທີ່ຮັກສາເຄື່ອງນຸ່ງຫົ່ມ ເອ້ຍ້ອງໄດ້ດີກວ່າເພິ່ນນັ້ນກໍ່ແມ່ນຊົນເຜົ່າມົ້ງນັ້ນເອງ, ເຊິ່ງມັນສະແດງອອກໄດ້ຢ່າງຈະແຈ້ງໃນທົ່ວໆໄປ ບໍ່ວ່າຈະເປັນ ບຸນປະເພນີ ຫຼືວັນທຳມະດາ ພວກເຮົາກໍ່ຈະພົບເຫັນ. ເຄື່ອງນຸ່ງຫົ່ມທີ່ເປັນເອກະລັກຂອງເຜົ່າຕົນເອງ</h4>
+                           </div>
+                
+                       </div>
+                             </div>
+                   </div>
+               
+                  <!---ປີດ-->
+            </div>
+            <div class="card-footer text-center bg-secondary text-white">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6  mb-5">
+                        <p>ຖ້າວ່າທ່ານສົມໃຈຕີດຕໍ່ໄດ້</p>
+                        <p><i class="fa fa-map-marker-alt mr-2"></i>    BCT college for IT education</p>
+                        <p><i class="fa fa-phone-alt mr-2"></i>call:   +856 76900587</p>
+                        <p><i class="fa fa-envelope mr-2"></i> email:   herkhaloveyou@gmail.com</p>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-5">
+                <h4 class="text-white mb-4">ຕີດຕໍ່</h4>
+                <div class="d-flex flex-column justify-content-start">
+                    <a class="text-white mb-2" href="#">ພັດທະນາໂດຍນັກສືກສາ ບີຊີທີ ປິ1 </a>
+                    <a class="text-white mb-2" href="#">ກຽ່ວກັບພວກເຮົາ</a>
+                    <a class="text-white mb-2" href="#">ຂ່າວ</a>
+                    <a class="text-white mb-2" href="#">ເພື້ອນຮວ່ມງານ</a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-5 ">
+                <h2 class="text-white mt-3">Newsletter</h2>
+                <form action="">
+                    <div class="form-group">
+                        <input id="d" type="text" class="form-control" placeholder="Your name.."required="required">
+                    </div>
+                    <br>
+                    <div class="form-group ">
+                        <input id="e" type="email" class="form-control" placeholder="Your email..">
+                    </div>
+                    <br>
+                    <div>
+                        <button id="f" class="btn btn-outline-success bg-info" type="submit">Submit Now</button>
+                    </div>
+                </form>
+                <br><br>
+                <ion-icon class=" bg-primary btn btn-outline-danger" name="logo-youtube"></ion-icon>
+                <ion-icon class=" bg-danger btn btn-outline-primary" name="logo-facebook"></ion-icon>
+                <ion-icon class=" bg-info btn btn-outline-success" name="logo-whatsapp"></ion-icon>
+                <ion-icon class=" bg-success btn btn-outline-info" name="ios-apps"></ion-icon>
+            </div>
+        </div>
+</body>
+</html>

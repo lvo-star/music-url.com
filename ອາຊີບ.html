@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="hh.css">
+    <script src="http://unpkg.com/ionicons@4.4.2/dist/ionicons.js"></script>
+   
+    
+</head>
+<body>
+        <div class="container-fluid ">
+                <div class="card-header bg-dark text-white text-center">
+                    <h1><b><i><font face="Times New roman"> >>> Welcome to Website <<<</font></i></b></h1>
+                    <h4> >>> ຍີນດີຕອນຮັບເຂົ້າສູ້ເວັບໄຊ໌ <<<</h4>
+                    <div id="hh" class="row">
+                        <div class="col-sm-3 mt-5">
+                            <script>
+                                today=new Date();
+                                 dd=today.getDay();
+                                days=new Array("ທີດ(Sunday)" , "ຈັນ(Monday" , "ອັງຄາ(tuesday" , "ພຸດ(wednesday)" , "ພະຫັດ(thursday" , "ສຸກ(firday)" , "ເສົາ(saturday)");
+                                document.write("ມື້ນີ້ແມ່ນວັນ:",days[dd]+"<br>");
+                       
+                                  today=new Date();
+                                                d=today.getDate();
+                                                m=today.getMonth()+1;
+                                                y=today.getFullYear();
+                                                document.write("ມື້ນີ້ແມ່ນວັນທີ່" + d + "/" + m + "/" +y);
+                                                
+                               function startTime(){
+                                   var today=new Date();
+                                   var h= today.getHours();
+                                   var m=today.getMinutes();
+                                   var s=today.getSeconds();
+                                   m= checkTime(m);
+                                   s=checkTime(s);
+                                   document.getElementById("txt").innerHTML="ຊົ້ວໂມງ"+":" +h+":"+m+":"+s;
+                                   var t=setTimeout(startTime,500);
+                               }
+                               function checkTime(i){
+                                   if(i<10){
+                                      
+                                   }
+                                   return i;
+                               }
+                           </script>
+                            <body onload="startTime()">
+                                <div id="txt"></div>
+                            </body>
+                             <br>
+                             <video autobuffer autooop controls autoplay class=" col-md-8 col-xs-8 col-sm-8 col-lg-8" id="r"><source src="img/hmoob story.mp4" style="width: 100%;" height="100px"></video>
+                            
+
+                            <br><br>
+                           
+                        </div>
+                        <div class="col-sm-6 text-center mt-5">
+                          
+                            <h1 class="text-center"> " ຂໍອະໄພຈາກວີດິໂອ "</h1>
+                            <p class="text-center"><i>ນີ້ຄືການເອົາເມຍໃນສະໄໜ່ກອ່ນແຕ່ວີທີນີ້ແມ່ນການເອົາແບບງາ່ຍ ຕາມຮິດຄອງຂອງຊົນເຜົ່າມົ້ງໃນສະໄໜ່ກອ່ນຖ້າວ່າເຮົາຮັກຖືກລູກສາວເຂົາແຕ່ເຂົາບໍ່ຮັກເຮົາກໍ່ຕາມໃຊ້ວີທີ່ນີ້ໂລດບໍ່ຜີດເພາະເອົາມາເປັນເມຍຊື່ໆ ແຕ່ໃນປັດຈູບັນນີ້ບໍ່ເຮັດແບບນັ້ນລະ ຄອ່ຍລົມກັນໄປຖ້າຫາກຮັກກັນລະຄອ່ຍເອົາກັນ</i></p>
+                            
+                        </div>
+                        <div class="col-sm-3 mt-5">
+                            <img id="p" class="img-fluid" src="img/f (19).jpg" style="width:500px;" height="800px;">
+                            
+                            <h4 class="mt-3"><i>His work ໄດ້ເລີ່ມຕົ້ນຈາກການເດີນທາງຂອງລາວຜູ້ຊາຍຄົນໜື່ງທີ່ມີນາມວ່າ herkha ທີ່ໄດ້ເດີ່ນທາງໄປຫາຊົນເຜົ່າຕ່າງໆຢູ່ທົ່ວປະເທດໂດຍຫວັງວ່າຈະນຳເອົາຜົນງານ ທີ່ປານີດຂອງກຸ່ມຊົນເຜົ່າທີ່ດວ້ຍໂອກາດມາເຜີຍເເຜ່ສາຍຕາຂອງຄົນທົ້ວໂລກ</i></h4>
+                           
+                        </div>
+                       
+                    </div> 
+                <nav class="navbar navbar-expand-sm sticky-top bg-dark mt-2 navbar-kark">
+                    <div class="container">
+                        <ul class="navbar nav">
+                            <li nav-item>
+                                <a class="nav-link" href="index.html">ໜ້າຫຼັກ</a>
+                            </li>
+                            <li nav-item>
+                                <a class="nav-link" href="ປະຫວັດຄວາມເປັນມາ.html">ປະຫວັດຄວາມເປັນມາ</a>
+                            </li>
+                            <li nav-item >
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown">
+                                        ບູນປະເພນີ
+                                    </a>
+                                    <ul class="dropdown-menu" >
+                                    <li><a class="dropdown-item" href="ນຸງຖື.html">ການນຸງຖືຂອງມົ້ງ</a></li>
+                                    <li><a class="dropdown-item" href="ອາຊີບ.html">ອາຊີບ</a></li>
+                                    <li><a class="dropdown-item" href="ບູນປະເພນີ.html">ບຸນປະເພນີຂອງເຜົ່າມົ້ງ</a></li>
+                                </ul>
+                            </li>
+                            <li nav-item>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown">
+                                ພື້ນທີ່ຕັ້ງເຮືອນຂອງມົ້ງ
+                            </a>
+                             <ul class="dropdown-menu">
+                                 
+                                    <li><a class="dropdown-item" href="ພາສາ.html">ພາສາປາກເວົ້າ</a></li>
+                                    <li><a class="dropdown-item" href="ທີ່ຕັ້ງ.html">ທີ່ຕັ້ງ</a></li>
+                                </ul>
+                            </li>
+                            <li nav-item>
+                                <a class="nav-link" href="ຮູບພາບ.html">ຮູບພາບ</a>
+                            </li>
+                            <li nav-item>
+                                <a class="nav-link" href="develop.html">ຜູ້ພັດທະນາ</a>
+    
+                                </li>
+                        </ul>
+                    </div>
+                </nav>
+               <!----ເປີດ-->
+               <div  class="container">
+                <div class="row">
+                   
+                        <div class="card-header bg-secondary text-white text-center ">
+                            <h1>ອາຊີບຫຼັກໃນສະໄໜກອ່ນຂອງມົ້ງ</h1>
+                        </div>
+                        <div class="row bg-info text-center">
+                            <div class="col-sm-6">
+                                <img class="img-fluid" src="../img/job1.png" alt="">
+                            </div>
+                            <div class="col-sm-6">
+                                <img class="img-fluid" src="../img/job2.png " alt="">
+                            </div>
+                            <h4 class="bg-secondary text-white mt-4"><i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ການດຳລົງຊີວິດທາງດ້ານເສດຖະກິດຂອງຊົນເຜົ່າ ມົ້ງ ສ່ວນຫລາຍແມ່ນປະກອບອາຊີບທາງດ້ານການກະເສດເປັນຕົ້ນ: ເຮັດໄຮ່ປູກເຂົ້າຈ້າວ ແລະສາລີ. ນອກຈາກນີ້, ຍັງປູກພືດຜັກ, ມັນຊະນິດຕ່າງໆຮັບໃຊ້ຊີວິດປະຈຳວັນ ແລະ ນິຍົມການລ້ຽງສັດຫຼາຍປະເພດ ເຊັ່ນ: ງົວ, ຄວາຍ, ມ້າ, ແບ້, ໝູ, ໝາ, ເປັດ ແລະ ໄກ່. ສຳລັບຜູ້ຊາຍແມ່ນມີຄວາມຊຳນານທາງດ້ານການຕີເຫຼັກ ແລະ ແມ່ຍິງມີຄວາມຊຳນານທາງດ້ານການຍິບປັກຖັກແສ່ວແບບລວດລາຍຕ່າງໆສະເພາະທີ່ເຂົາເຈົ້າມັກນິຍົມກັນ. ພ້ອມກັນນັ້ນຍັງມີຄວາມເອົາໃຈໃສ່ໃນການເລືອກແນວພັນສັດ, ແນວພັນພືດເພື່ອຕອບສະໜອງຜົນຜະລິດໃຫ້ໄດ້ຮັບຜົນດີຂຶ້ນເລື້ອຍໆ. ປັດຈຸບັນ ຊົນເຜົ່າມົ້ງ ຈຳນວນໜຶ່ງ ຫັນມາສູ່ອາຊີບການເຮັດນາປູກເຂົ້າຈ້າວ ແລະ ຄ້າຂາຍຢູ່ຕາມເຂດທົ່ງພຽງ.</i></h4>
+                
+                        </div>
+                        
+                  
+                </div>
+               </div>
+               <!----ປີດ-->
+                </nav>
+                <!---ເປີດ-->
+                <div class="container-fluid py-2 mt-4 bg-success">
+                    <div class="container">
+                        <div class="card-header bg-info mt-3 text-center">
+                            <h2 class="mt-2"><i>ການເຮັດໄຮ່ໃນແຕ່ລະປີທີ່ຜ່ານມາຂອງຊົນເຜົ້າມົ້ງ</i></h2>
+                        </div>
+                        <div class="card">
+                            <div class="row align-item-center bg-secondary">
+                                <div class="col-sm-4" style="width:600px;">
+                                    <img class="img-fluid" src="img/job3.jpg" alt="">
+                                    <h4 class="mt-3 text-center">
+                                            ຕອນໄປຖັງປ່າເຮັດໄຮ່
+                                    </h4>
+                                </div>
+                                    <div class="col-sm-4" style="width: 550px;">
+                                        <img class="img-fluid" src="img/job4.jpg" alt="">
+                                        <h4 class="mt-3 text-center">
+                                            ຕອນກຳລັງເຕີບໂຕ
+                                        </h4>
+                                        
+                                    </div>    
+                                                           
+                                </div>
+
+                        </div>
+                       
+                            <div class="row mt-3 bg-primary">
+                                <div class="col-sm-4" style="width: 430px;">
+                                    <img class="img-fluid" src="img/job5.JPG" alt="">
+                                    <h4 class="mt-3 text-center">
+                                        ຕອນເຂົ້າກຳລັງສຸກ
+                                    </h4>
+                                </div> 
+                                <div class="col-sm-4" style="width:455px;">
+                                    <img class="img-fluid" src="img/job6.jpg">
+                                    <h4 class="mt-3 text-center">
+                                        ຫຼັງກຽ້ງເຂົ້າ
+                                    </h4>
+                                </div>   
+                                <div class="col-sm-4" style="width:350px;">
+                                    <img class="img-fluid" src="img/job7.jpg" alt="">
+                                    <h4 class="mt-3 text-center"> 
+                                   
+                                        ຕອນກຽ້ງເຂົ້າ
+                                    </h4>
+                                </div>   
+                            </div>
+                           
+                        </div>
+                    </div>
+                    <div id="l" class="card-footer text-center  text-dark">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 mb-5">
+                                <p class="mt-5">ຖ້າວ່າທ່ານສົມໃຈຕີດຕໍ່ໄດ້</p>
+                                <p><i class="fa fa-map-marker-alt mr-2"></i>    BCT college for IT education</p>
+                                <p><i class="fa fa-phone-alt mr-2"></i>call:   +856 76900587</p>
+                                <p><i class="fa fa-envelope mr-2"></i> email:   herkhaloveyou@gmail.com</p>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mb-5">
+                        <h4 class="mt-5">ຕີດຕໍ່</h4>
+                        <div class="d-flex flex-column justify-content-start">
+                            <p>ພັດທະນາໂດຍນັກສືກສາ ບີຊີທີ ປິ1 </p>
+                            <p>ກຽ່ວກັບພວກເຮົາ</p>
+                            <p>ຂ່າວ</p>
+                            <p>ເພື້ອນຮວ່ມງານ</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-5 ">
+                        <h2 class=" mt-3">Newsletter</h2>
+                        <form action="">
+                            <div class="form-group">
+                                <input id="d" type="text" class="form-control" placeholder="Your name.."required="required">
+                            </div>
+                            <br>
+                            <div class="form-group ">
+                                <input id="e" type="email" class="form-control" placeholder="Your email..">
+                            </div>
+                            <br>
+                            <div>
+                                <button id="f" class="btn btn-outline-success bg-info" type="submit">Submit Now</button>
+                            </div>
+                        </form>
+                        <br><br>
+                        <ion-icon class=" bg-primary btn btn-outline-danger" name="logo-youtube"></ion-icon>
+                        <ion-icon class=" bg-danger btn btn-outline-primary" name="logo-facebook"></ion-icon>
+                        <ion-icon class=" bg-info btn btn-outline-success" name="logo-whatsapp"></ion-icon>
+                        <ion-icon class=" bg-success btn btn-outline-info" name="ios-apps"></ion-icon>
+                    </div>
+                </div>
+                <!---ປີດ-->
+           
+          
+        </div>
+</body>
+</html>

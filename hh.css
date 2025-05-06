@@ -1,0 +1,162 @@
+body{
+    font-family: "saysettha OT";
+    
+}
+#hh{
+    
+    background-image: url("img/the now.jpg");
+    background-size: 1200px;
+    background-repeat: none;
+    border: 5px solid burlywood;
+    background-size: cover;
+}
+#index{
+    background-image: url("img/122.jpg");
+    background-size: 1300px;
+    background-size: cover;
+}
+#cloth{
+    background-image: url("img/dd 12 (1).gif");
+    background-size: cover;
+    background-size: 1500px;
+}
+#asd,#sun{
+    background-image: url("img/asd.jpg");
+    background-size: cover;
+    background-size: 1500px ;
+}
+#lu{
+    background-color: #a699c0;
+}
+#onone{
+    background-color: #a699c0;
+}
+#jj {
+    border: 3px solid blue;
+}
+#o{
+    border: 5px solid rgb(12, 20, 246);
+}
+#r{
+    border:5px solid #6610f2;
+}
+#p{
+    border: 5px solid rgb(215, 7, 252);
+}
+#a{
+    border: 5px solid rebeccapurple;
+}
+#b{
+    border: 5px solid rgb(232, 10, 176);
+}
+#d,#e,#f{
+    border: 5px solid black;
+}
+#g{
+    border: 5px solid saddlebrown;
+}
+#h{
+    border: 5px solid #bdb4f0;
+    background-image: url("img/f (19).jpg");
+}
+#k,#ll,#mm,#ls{
+    border: 6px solid blue;;
+}
+#i{
+    background-image: url("img/f (11).jpg");
+}
+#j{
+    border: 6px solid salmon;
+}
+#n{
+    border: 6px solid darkmagenta;
+}
+#q{
+    background-color: #6f42c1;
+    border: 5px solid rebeccapurple;
+}
+#oo{
+    border: 5px solid blue;
+}
+#rr,#qq,#nn,#ww{
+    border: 5px solid blue;
+    
+}
+#ss,#jl{
+    border: 5px solid blue;
+}
+#the,#best,#most,#one{
+    border: 5px solid darkblue;
+}
+
+
+ion-icon {
+    font-size: 64px;
+
+}
+#me{
+    background-color: #6f42c1;
+    border: 5px solid saddlebrown;
+
+}
+
+#l{
+     background-color: #c1d0d4;
+
+}
+#m,#two{
+    background-color: #338296;
+}
+#lo{
+    background-color: #eae9f0;
+}
+#he{
+    background-color: #d9d5f0;
+}
+#ha{
+    background-color: #c9c2f0;
+}
+#hc{
+    background-color: #bdb4f0;
+}
+#hd{
+    background-color: #b1a5f0;
+}
+#hf{
+    background-color:#bdb4f0;
+}
+#ht{
+    background-color:#c9c2f0;
+}
+#hy{
+    background-color: #d9d5f0;
+}
+#hu{
+    background-color:#d9d5f0;
+}
+#hi{
+    background-color: rgb(229, 238, 239);
+}
+#ho{
+    background-color: #ffff;
+}
+#bs{
+    background-color: #a699c0;
+}
+#footer{
+    background-color: #bce4e6;
+}
+#job{
+    background-image: url("img/the bes.jpeg");
+}
+#onlyme{
+    background-image: url("img/no.PNG");
+
+ 
+}
+#you{
+    color: #bce4e6;
+}
+#give{
+    background-color: #a699c0;
+}

@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="hh.css">
+    <script src="http://unpkg.com/ionicons@4.4.2/dist/ionicons.js"></script>
+   
+    
+</head>
+<body>
+        <div class="container-fluid py-2 ">
+            <div class="card">
+                <div class="card-header bg-dark text-white">
+                    <h1><center><b><i><font face="Times New roman"> >>> Welcome To My Website <<<</font></i></b></center></h1>
+                    <h3><center><b>>>> ຍີນດີຕອນຮັບເຂົ້າສູ້ເວັບໄຊ໌ <<<</b></center></h3>
+                    <div id="asd" class="row">
+                        <div class="col-sm-3 mt-5">
+    
+                            <script>
+                                today=new Date();
+                                 dd=today.getDay();
+                                days=new Array("ທີດ(Sunday)" , "ຈັນ(Monday" , "ອັງຄາ(tuesday" , "ພຸດ(wednesday)" , "ພະຫັດ(thursday" , "ສຸກ(firday)" , "ເສົາ(saturday)");
+                                document.write("ມື້ນີ້ແມ່ນວັນ:",days[dd]+"<br>");
+                       
+                                  today=new Date();
+                                                d=today.getDate();
+                                                m=today.getMonth()+1;
+                                                y=today.getFullYear();
+                                                document.write("ມື້ນີ້ແມ່ນວັນທີ່" + d + "/" + m + "/" +y);
+                                                
+                               function startTime(){
+                                   var today=new Date();
+                                   var h= today.getHours();
+                                   var m=today.getMinutes();
+                                   var s=today.getSeconds();
+                                   m= checkTime(m);
+                                   s=checkTime(s);
+                                   document.getElementById("txt").innerHTML="ຊົ້ວໂມງ"+":" +h+":"+m+":"+s;
+                                   var t=setTimeout(startTime,500);
+                               }
+                               function checkTime(i){
+                                   if(i<10){
+                                      
+                                   }
+                                   return i;
+                               }
+                           </script>
+                           <body onload="startTime()">
+                               <div id="txt"></div>
+                           </body>
+                             <br>
+                             <video autobuffer autooop controls autoplay class=" col-md-8 col-xs-8 col-sm-8 col-lg-8" id="r"><source src="img/hmoob story.mp4" style="width: 100%;" height="100px"></video>
+                            <br><br>
+                        </div>
+                        <div class="col-sm-6 text-center mt-5">
+                            
+                            <h1 class="text-center"> " ຂໍອະໄພຈາກວີດິໂອ "</h1>
+                            <p class="text-center"><i>ນີ້ຄືການເອົາເມຍໃນສະໄໜ່ກອ່ນແຕ່ວີທີນີ້ແມ່ນການເອົາແບບງາ່ຍ ຕາມຮິດຄອງຂອງຊົນເຜົ່າມົ້ງໃນສະໄໜ່ກອ່ນຖ້າວ່າເຮົາຮັກຖືກລູກສາວເຂົາແຕ່ເຂົາບໍ່ຮັກເຮົາກໍ່ຕາມໃຊ້ວີທີ່ນີ້ໂລດບໍ່ຜີດເພາະເອົາມາເປັນເມຍຊື່ໆ ແຕ່ໃນປັດຈູບັນນີ້ບໍ່ເຮັດແບບນັ້ນລະ ຄອ່ຍລົມກັນໄປຖ້າຫາກຮັກກັນລະຄອ່ຍເອົາກັນ</i></p>
+                      
+                        </div>
+                        <div class="col-sm-3 mt-5">
+                            <img id="p" class="img-fluid" src="img/f (19).jpg" style="width:500px;" height="800px;">
+                            
+                            <h4 class="mt-3">  His work ໄດ້ເລີ່ມຕົ້ນຈາກການເດີນທາງຂອງລາວຜູ້ຊາຍຄົນໜື່ງທີ່ມີນາມວ່າ herkha ທີ່ໄດ້ເດີ່ນທາງໄປຫາຊົນເຜົ່າຕ່າງໆຢູ່ທົ່ວປະເທດໂດຍຫວັງວ່າຈະນຳເອົາຜົນງານ ທີ່ປານີດຂອງກຸ່ມຊົນເຜົ່າທີ່ດວ້ຍໂອກາດມາເຜີຍເເຜ່ສາຍຕາຂອງຄົນທົ້ວໂລກ</h4>
+                           
+                        </div>
+                            
+                    </div>
+                <nav id="q" class="navbar navbar-expand-sm sticky-top mt-2 navbar-kark">
+                    <div class="container">
+                        <ul class="navbar nav">
+                            <li nav-item>
+                                <a class="nav-link text-white" href="index.html">ໜ້າຫຼັກ</a>
+                            </li>
+                            <li nav-item>
+                                <a class="nav-link text-white" href="ປະຫວັດຄວາມເປັນມາ.html">ປະຫວັດຄວາມເປັນມາ</a>
+                            </li>
+                            <li nav-item >
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle text-white" href="" role="button" data-bs-toggle="dropdown">
+                                        ບູນປະເພນີ
+                                    </a>
+                                    <ul class="dropdown-menu" >
+                                    <li><a class="dropdown-item" href="ນຸງຖື.html">ການນຸງຖືຂອງມົ້ງ</a></li>
+                                    <li><a class="dropdown-item" href="ອາຊີບ.html">ອາຊີບ</a></li>
+                                    <li><a class="dropdown-item" href="ບູນປະເພນີ.html">ບຸນປະເພນີຂອງເຜົ່າມົ້ງ</a></li>
+                                </ul>
+                            </li>
+                            <li nav-item>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white" href="" role="button" data-bs-toggle="dropdown">
+                                ພື້ນທີ່ຕັ້ງເຮືອນຂອງມົ້ງ
+                            </a>
+                             <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="ພາສາ.html">ພາສາປາກເວົ້າ</a></li>
+                                    <li><a class="dropdown-item" href="ທີ່ຕັ້ງ.html">ທີ່ຕັ້ງ</a></li>
+                                </ul>
+                            </li>
+                            <li nav-item>
+                                <a class="nav-link text-white" href="ຮູບພາບ.html">ຮູບພາບ</a>
+                            </li>
+                            <li nav-item>
+                                <a class="nav-link text-white" href="develop.html">ຜູ້ພັດທະນາ</a>
+                                </li>
+                        </ul>
+                    </div>
+                </nav>
+               <!---ເປີດ-->
+               <div class="container-fluid py-5">
+                <div id="i" class="container">
+                    <div class="row align-items-center">
+                        <div class="col-sm-5 mt-3">
+                            <img id="j" class="img-fluid" src="img/f (24).jpg" alt="">
+                        </div>
+                        <div class="col-lg-7 mt-5">
+                            <h6 class="text-secondary text-uppercase font-weight-medium mb-3">Learn About Us</h6>
+                            <h1 class="mb-4">ບຸນກິນຈຽງ ຂອງຊົນເຜົ່າມົ້ງ ແຫ່ງ ສປປ ລາວ</h1>
+                            <p class="mb-2">ບຸນປະຈຳປີຂອງເຜົ່າມົ້ງ ແມ່ນງານສົ່ງທ້າຍປີເກົ່າຕ້ອນຮັບປີໃໝ່,ເປັນສັນຍາລັກແຫ່ງຄວາມສາມັກຄີ,
+                                ຄວາມຜູກໝັ້ນໃນວົງສາຄະນະຍາດຂອງປະຊາຊົນເຜົ່າມົ້ງທີ່ຢູ່ຫ່າງໄກໄດ້ມາພົບປະສ້າງສັນ ແລະ ເພື່ອເຮັດພິທີກຳລະນຶກເຖິງບັນພະບູລຸດຂອງວົງສາຄະນະຍາດຕົນ
+                                 ເຊິ່ງເຈົ້າກົກເຈົ້າເລົ່າ ໄດ້ນຳພາຊາວເຜົ່າມົ້ງຈັດງານບຸນກີນຈຽງ ພາສາມົ້ງເອີ້ນວ່າ:<font face="Times news roman">noj ped caug</font>(ນໍເປເຈົາ) ທີຍິ່ງໃຫຍ່ຂື້ນມາແຕ່ດົນນານ ແລະ ມີຄວາມໝາຍຄວາມສຳຄັນທີ່ສ່ອງແສງເຖິງຮິດຄອງປະເພນີ,
+                                 ວັດທະນະທຳອັນດີງາມຂອງຊົນເຜົ່າໃນລາວ ໂດຍສະເພາະແມ່ນເຜົ່າມົ້ງ,ເຊິ່ງມີເອກະລັກສະເພາະຂອງເຜົ່າເຊັ່ນ: ການໂຍນໝາກຄອນ,ເປົ່າແຄນ,ການຂັບລຳ,ຍິງໜ້າເກັກ,
+                                 ຕີໝາກຂ່າງ,ເປົ່າຂຸ່ຍ ແລະ ເປົ່າໃບໄມ້.</p>
+                           
+                        </div>
+                        <p>ຊົນເຜົ່າມົ້ງເປັນ ຊົນເຜົ່າ ໜຶ່ງໃນ 49 ຊົນເຜົ່າໃນວົງຄະນາຍາດແຫ່ງຊາດລາວຈັດຢູ່ໃນ ໝວດພາສາມົ້ງ – ອີວມຽນ ມີປະຫວັດຄວາມເປັນມາອັນຍາວນານຄ້າຍຄືກັບຊົນເຜົ່າອື່ນໆ ຂອງລາວ. ຊົນເຜົ່າມົ້ງມີ ພາສາຂຽນເປັນເອກະລັກຂອງຕົນເອງ ສ່ວນພາສາປາກເວົ້າມີຄວາມແຕກຕ່າງກັນເລັກໜ້ອຍ, ແຕ່ສາມາດເຂົ້າໃຈຊຶ່ງກັນ ແລະ ກັນ ມີເອກະລັກທາງດ້ານ ຮີດຄອງ ປະເພນີຄວາມເຊື່ອຖື ວັດທະນະທຳຂອງຕົນເອງໄວ້ໃຫ້ ຮຸ່ນລູກ – ຮຸ່ນຫຼານ ຈົນເຖິງທຸກວັນນີ້.
+        
+                            ງານບຸນກິນຈຽງ ຫລື (ນໍ່ເປເຈົ່າ) ຂອງ ຊົນເຜົ່າມົ້ງ ເພື່ອເປັນການ ສະເຫຼີມສະຫຼອງຜົນງານການ ຜະລິດໃນຮອບ 1 ປີ ທັງເປັນການ ຟື້ນຟູເຜີຍແຜ່ຮີດຄອງປະເພນີ ແລະ
+                             ວັດທະນະທຳອັນດີງາມຂອງຕົນ ເປັນການສົມມາຄາລະວະຕໍ່ຜູ້ອາວຸໂສ, ຜູ້ເປັນພໍ່ເປັນແມ່ ແລະ ຜູ້ນຳພາໃນຕະກຸນ ເປັນໂອກາດເຕົ້າ ໂຮມພໍ່ແມ່ ຍາດຕິພີ່ນ້ອງທັງໃກ້ ແລະ ໄກ
+                              ເພື່ອຢ້ຽມຢາມ ພົບປະສ້າງສັນຄວາມສາມັກຄີ ແລະ ຮູ້ບຸນຄຸນຊຶ່ງກັນ ແລະ ກັນຂອງຊົນເຜົ່າມົ້ງຢ່າງມ່ວນຊື່ນ.
+                            
+                            </p>
+                    </div>
+                    <div class="container-fluid py-2">
+                        <div class="row align-items-center">
+                            <div class="col-sm-5">
+                                <img id="k" class="img-fluid" src="img/gg1.jpg" alt="">
+                            </div>
+                            <div class="col-sm-5">
+                                <p class="mb-2" > 
+                                    ນັບແຕ່ໃດມາໃນຊີວິດຕົວຈິງຂອງສັງຄົມຊົນເຜົ່າ ມົ້ງ ຍັງຮັກສາເອກະລັກໃນດ້ານຄວາມເຊື່ອຖືແຕ່ບັນພະບູລຸດໄວ້ໃຫ້ແກ່ຄົນລຸ້ນລູກ,
+                                     ຫຼານຈົນເຖິງທຸກມື້ນີ້ເຊັ່ນ: ນັບຖືຜີພໍ່, ຜີແມ່, ຜີເຮືອນ, ຜີເຈົ້າຖິ່ນ, ເຈົ້າຖານ, ຜີຟ້າ, ຜີແຖນ ແລະ ອື່ນໆ. ຜີເຮືອນຈະລວມຫຼາຍສັນຍາລັກ 
+                                     ແລະ ເປັນສິ່ງຄະລຳຂອງແຂກຄົນອື່ນເຊັ່ນ: ຮ້ານນ້ອຍແຂງນຢູ່ຝາເຮືອນ, ແຜ່ນເຈ້ນນ້ອຍຕິດຝາເບື້ອງເທິງຫ້ອງກາງເຮືອນ, ເສົາກາງເຮືອນ, ບໍ່ລ່ວງຫ້ອງນອນທີ່ແອ້ມໄວ້, 
+                                     ບໍ່ນອນຂວາງຕາມລວງຍາວຂອງເຮືອນ, ມີຟົດໄມ້ດິບ ຫຼື ຕາແຫລວຕິດຢູ່ປາກປະຕູ, ແມ່ນເຂົ້າເຮືອນບໍ່ໄດ້ ຫຼື ຕາມຮີດຄອງຂອງຊົນເຜົ່າ ມົ້ງ ຜູ້ໃດເປັນແຂກມາແຕ່ໄກ, 
+                                     ກ່ອນຈະຍ່າງເຂົ້າເຮືອນແມ່ນຕ້ອງຖາມ ຫຼື ຂໍອະນຸຍາດຈາກເຈົ້າຂອງເຮືອນເສຍກ່ອນແລ້ວຈິ່ງເຂົ້າໄດ້.
+                                </p>
+                            </div>
+                            <p class="mb-2">
+                                ສຳລັບງານບຸນປະຈຳປີຂອງ ມົ້ງ ໄດ້ແກ່ ບຸນກິນຈຽງເຊິ່ງຈັດຂຶ້ນໃນມື້ແຮມ 15ຄ່ຳ ເດືອນ 12 ລາວ, ເອີ້ນວ່າ “ເກົາເຕີ້ໄກ້”. ຈາກນັ້ນຈິ່ງເຮັດພິທີກິນຈຽງໄກ່ ແລະ ສູ່ຂວັນປີໄຫມ່ໃນຕອນຄ່ຳ,
+                                ພ້ອມກັນເຮັດກິນ, ເຮັດທານ ແລະ ກະກຽມສະຫຼອງບຸນກິນຈຽງ ໃນມື້ຂຶ້ນ 1ຄ່ຳ ເດືອນຈຽງ ໂດຍມີການຂ້າໝູ, ງົວ ຫຼື ຄວາຍ ຕາມເງື່ອນໄຂຂອງແຕ່ລະຄອບຄົວ ແລະ ມີພາເຂົ້າໃຫ້ຊາວບ້ານມາກິນ
+                                 ທັງມີການມັດແຂນອວຍພອນເຊິ່ງກັນ ແລະ ກັນໃຫ້ທຸກຄົນມີສຸຂະພສາບແຂງແຮງ. ເມື່ອກ່ອນພາເຂົ້ານັ້ນຈະມີອາຫານ 30ເຍື່ອງ, ດັ່ງນັ້ນ ຜູ້ຄົນທັງຫຼາຍຈິ່ງມັກເອີ້ນກັນວ່າ: ກິນສາມສິບ
+                            </p>
+                            </div>
+                            <div class="container-fluid py-2">
+                            
+                                <div class="row align-items-center">
+                                    <div class="col-sm-5">
+                                        <img id="ll" class="img-fluid" src="img/f (25).jpg" alt="">
+                                    </div>
+                                    <div class="col-sm-5">
+                                        <p class="mb-2">
+                                            ງານບຸນແມ່ນມີທັງການກິນ, ມີການອວຍພອນເຊິ່ງກັນ ແລະ ກັນ, ທັງເປັນການສະລຸບຜົນຜະລິດຂອງແຕ່ລະຄອບຄົວໃນໜຶ່ງປີທີ່ຜ່ານມາ. ບຸນກິນຈຽງສ່ວນຫຼາຍແມ່ນການຫຼິ້ນມ່ວນຊື່ນຂອງບ່າວ-ສາວ, 
+                                            ການສະແດງເຖິງຄວາມຮັ່ງມີໃນແຕ່ລະຄອບຄົວ, ຊຸດເຄື່ອງນຸ່ງເປັນການສະແດງເຖິງສີໄມ້ລາຍມືຂອງແມ່ຍິງ, ທັງເປັນການຊອກຫາຄູ່ຄອງຂອງບ່າວ-ສາວເພື່ອຈະສ້າງຄອບຄົວນຳກັນ ຫຼື ພໍ່ແມ່ຊອກຫາລູກໄພ້-ລູກເຂີຍ. 
+                                            ດ້ວຍການໂຍນໝາກຄອນຮ່ວມກັນ, ມີບາງທ້ອງຖິ່ນຈະຫຼິ້ນຍາວເປັນເວລາ 15ວັນ ຫຼື 30ວັນ ແລະ ຍັງມີການແຂ່ງຂັນມ້າ, ຫຼິ້ນເປົ່າແຄນ, ງົວຊົນງົວ, ຕີໝາກຂ່າງ ແລະ ອຶ່ນໆ.
+                                        </p>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="container-fluid py-2">
+                            <div class="row align-items-center">
+                                <div class="col-sm-5">
+                                    <img id="mm" class="img-fluid" src="img/story.jpg" alt="">
+                                </div>
+                                <div class="col-sm-5">
+                                    <p class="mb-2">
+                                        ສໍາລັບບັນດາຕົວເມືອງເຊັ່ນ: ຫຼວງພະບາງ, ໂພນສະຫວັນ, ແລະ ເຂດນອກເມືອງຂອງວຽງຈັນທີ່ມີປະຊາກອນເຜົ່າມົ້ງເປັນຈໍານວນຫຼາຍ, ການສະເຫຼີມສະຫຼອງບຸນກິນຈຽງແບບລວມສູນແມ່ນຈະຖືກຈັດຂຶ້ນຢູ່ສະຖານທີ່ກາງແຈ້ງເຊິ່ງແກ່ຍາວເປັນເວລາໜຶ່ງອາທິດເຕັມ. 
+                                        ໃນງານສະເຫຼີມສະຫຼອງດັ່ງກ່າວຈະມີຫຼາກຫຼາຍກິດຈະກຳບໍ່ວ່າຈະເປັນ ກິລາໝາກຂ່າງ, ຍິງໜ້າເກັກ, ສິລະປະຟ້ອນລໍາ ແລະ ຮ້ອງເພງ, ການສູ້ງົວ ແລະ ໂຍນໝາກຄອນ. ການສະແດງເຄື່ອງດົນຕີ qeej
+                                         ທີ່ມີລັກສະນະຮູບຊົງຍາວຢ່າງເປັນເອກະລັກສະເພາະ (ເປັນເຄື່ອງດົນຕີປະເພດເປົ່າທີ່ຖືກເອີ້ນວ່າ ແຄນ ໃນພາສາລາວ) ແມ່ນການສະແດງທີ່ເປັນທີ່ນິຍົມຫຼາຍ ເຊິ່ງບັນດານັກດົນຕີທີ່ມີຄວາມຊຳນິຊຳນານຈະສາມາດຟ້ອນລໍາ 
+                                         ແລະ ເຮັດກາຍະກຳໄປພ້ອມໆກັນ ຄຽງຄູ່ກັບການສືບຕໍ່ປະຄັບປະຄອງຮັກສາທໍານອງດົນຕີຂອງພວກເຂົາໄວ້.
+                                    </p>
+                                </div>
+                                <p class="mb-2">
+                                    ຊາວໜຸ່ມຊາຍ ແລະ ຍິງ ຈະພາກັນນຸ່ງເຄື່ອງພື້ນເມືອງທີ່ປະກອບໄປດ້ວຍສີສັນຫຼາກຫຼາຍ ເພື່ອຫວັງທີ່ຈະດຶງດູດໃຫ້ໄດ້ພົບກັບຜູ້ທີ່ຈະມາເປັນຄູ່ຄອງຂອງຕົນ. ສໍາລັບງານດັ່ງກ່າວ ນັກທ່ອງທ່ຽວແມ່ນເປັນທີ່ຍິນດີຕ້ອນຮັບໃຫ້ເຂົ້າຮ່ວມ 
+                                    ແລະ ຍັງສາມາດນຸ່ງຊຸດພື້ນເມືອງຖ່າຍຮູບ, ຫຼີ້ນເກມ ແລະ ຊົມການສະແດງຂອງປະຊາຊົນທ້ອງຖິ່ນໄດ້ນໍາອີກ.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="container-fluid py-2">
+                            <div class="row align-items-center">
+                                <div class="col-sm-5">
+                                    <img id="n" class="img-fluid" src="img/f (26).jpg" alt="">
+                                </div>
+                                <div class="col-sm-5">
+                                    <p class="mb-2">
+                                        ແມ່ຍິງເຜົ່າມົ້ງຖືໄດ້ວ່າມີຊື່ສຽງໃນການຕໍ່າແຜ່ນແພຜ້າບາຕິກ ແລະ ຫຍິບຖັກ ປັກແສ່ວຫຼາຍ. ສຳລັບຜ້າບາຕິກຂອງເຜົ່າມົ້ງ, ແພປ່ານຈະຖືກນໍາມາແຊ່ໃສ່ກັບຂີ້ເຜິ້ງແລ້ວນໍາມາຍ້ອມສີແບບທໍາມະຊາດ.
+                                         ຂີ້ເຜິ້ງຈະລະລາຍຕົວອອກແລ້ວເຜີຍໃຫ້ເຫັນລວດລາຍທີ່ເປັນສີຂາວ. ຜ້າດັ່ງກ່າວນີ້ ຈະຖືກນຳໃຊ້ເພື່ອຫຍິບເປັນສິ້ນສໍາລັບກຸ່ມ Mong Njua.
+                                         ໂດຍທີ່ແຕ່ລະກຸ່ມລ້ວນແຕ່ມີຊຸດພື້ນເມືອງປະຈຳເຜົ່າຂອງຕົນ. ປັດຈຸບັນ, ເຄື່ອງນຸ່ງພື້ນເມືອງແມ່ນຈະຖືກໃສ່ໃນກາລະໂອກາດພິເສດເທົ່ານັ້ນເຊັ່ນ: ພິທີແຕ່ງດອງ ແລະ ປີໃໝ່.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container-fluid py-2">
+                            <div class="row align-item-center">
+                                <div class="col-sm-5">
+                                    <img id="jl" class="img-fluid" src="img/festival1.PNG">
+                                </div>
+                                    <div class="col-sm-5">
+                                        <h2 class="mt-5">ເຄື່ອງດົນຕີແລະສິນລະປະພື້ນເມືອງ</h2>
+                                        <p class="mb-5">
+                                            ເຄື່ອງດົນຕີພື້ນເມືອງປະຈຳຊົນເຜົ່າ ມົ້ງ: ແຄນ, ຄ້ອງ, ກອງ, ແຊ່ງ ທີ່ນຳເອົາມາເປັນເຄື່ອງດົນຕີໃນຍາມບຸນ, ງານດອງ, ງານເຮັດຮີດຂອງເຂົາເຈົ້າກໍ່ຈະນຳມາເສບ ແລະ ຂັບລຳ ຫຼື ເຂົາເຈົ້າເອີ້ນວ່າ: ຂັບມົ້ງ ແລະ ມີບົດເພງຮ້ອງ. ເຄື່ອງດົນຕີທີ່ໂດດເດັ່ນກວ່າໝູ່ຂອງຊົນເຜົ່າມົ້ງແມ່ນເປົ່າແຄນ.
+                                        </p>
+                                    </div>
+                            </div>
+                        </div>
+                            </div>
+                    </div>
+                </div>
+               <!---ປີດ-->
+                </nav>
+            </div>
+            <div class="card-footer text-center bg-secondary text-white">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4  mb-5">
+                        <p>ຖ້າວ່າທ່ານສົມໃຈຕີດຕໍ່ໄດ້</p>
+                        <p><i class="fa fa-map-marker-alt mr-2"></i>    BCT college for IT education</p>
+                        <p><i class="fa fa-phone-alt mr-2"></i>call:   +856 76900587</p>
+                        <p><i class="fa fa-envelope mr-2"></i> email:   herkhaloveyou@gmail.com</p>
+                </div>
+                <div class="col-lg-4 col-md-4 mb-5">
+                <h4 class="text-white mb-4">ຕີດຕໍ່</h4>
+                <div class="d-flex flex-column justify-content-start">
+                    <a class="text-white mb-2" href="#">ພັດທະນາໂດຍນັກສືກສາ ບີຊີທີ ປິ1 </a>
+                    <a class="text-white mb-2" href="#">ກຽ່ວກັບພວກເຮົາ</a>
+                    <a class="text-white mb-2" href="#">ຂ່າວ</a>
+                    <a class="text-white mb-2" href="#">ເພື້ອນຮວ່ມງານ</a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-5 ">
+                <h2 class="text-white mt-3">Newsletter</h2>
+                <form action="">
+                    <div class="form-group">
+                        <input id="d" type="text" class="form-control" placeholder="Your name.."required="required">
+                    </div>
+                    <br>
+                    <div class="form-group ">
+                        <input id="e" type="email" class="form-control" placeholder="Your email..">
+                    </div>
+                    <br>
+                    <div>
+                        <button id="f" class="btn btn-outline-success bg-info" type="submit">Submit Now</button>
+                    </div>
+                </form>
+                <br><br>
+                <ion-icon class=" bg-primary btn btn-outline-danger" name="logo-youtube"></ion-icon>
+                <ion-icon class=" bg-danger btn btn-outline-primary" name="logo-facebook"></ion-icon>
+                <ion-icon class=" bg-info btn btn-outline-success" name="logo-whatsapp"></ion-icon>
+                <ion-icon class=" bg-success btn btn-outline-info" name="ios-apps"></ion-icon>
+            </div>
+        </div>
+            </div>
+</body>
+</html>
