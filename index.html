@@ -1,166 +1,525 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.css">
-    <link rel="stylesheet" href="hh.css">
-    <script src="http://unpkg.com/ionicons@4.4.2/dist/ionicons.js"></script>
-   
-    
-</head>
-<body>
-        <div class="container-fluid ">
-            <div class="card">
-                <div class="card-header bg-dark text-white">
-                    <h1><center><b><i><font face="Times New roman"> >>> Welcome To My Website <<<</font></i></b></center></h1>
-                    <h3> <center><b><i> >>> ຍີນດີຕອ້ນຮັບເຂົ້າສູ່ເວັບໄຊ໌ <<<</i></b></center></h3>
-                    <div id="index" class="row">
-                        <div class="col-sm-3 mt-5">
-                            <script>
-                                today=new Date();
-                                 dd=today.getDay();
-                                days=new Array("ທີດ(Sunday)" , "ຈັນ(Monday" , "ອັງຄາ(tuesday" , "ພຸດ(wednesday)" , "ພະຫັດ(thursday" , "ສຸກ(firday)" , "ເສົາ(saturday)");
-                                document.write("ມື້ນີ້ແມ່ນວັນ:",days[dd]+"<br>");
-                       
-                                                 today=new Date();
-                                                d=today.getDate();
-                                                m=today.getMonth()+1;
-                                                y=today.getFullYear();
-                                                document.write("ມື້ນີ້ແມ່ນວັນທີ່" + d + "/" + m + "/" +y);
-                                                
-                               function startTime(){
-                                   var today=new Date();
-                                   var h= today.getHours();
-                                   var m=today.getMinutes();
-                                   var s=today.getSeconds();
-                                   m= checkTime(m);
-                                   s=checkTime(s);
-                                   document.getElementById("txt").innerHTML="ຊົ້ວໂມງ"+":" +h+":"+m+":"+s;
-                                   var t=setTimeout(startTime,500);
-                               }
-                               function checkTime(i){
-                                   if(i<10){
-                                      
-                                   }
-                                   return i;
-                               }
-                           </script>
-                           <body onload="startTime()">
-                               <div id="txt"></div>
-                           </body><br>
-                             <video autobuffer autooop controls autoplay class=" col-md-8 col-xs-8 col-sm-8 col-lg-8" id="r"><source src="img/hmoob story.mp4" style="width: 100%;" height="100px"></video>
-                            <br><br>
-                        </div>
-                        <div class="col-sm-6 text-center mt-5">
-                            
-                            <h1 class="text-center">" ຂໍອະໄພຈາກວີດິໂອ "</h1>
-                            <p class="text-center"><i>ນີ້ຄືການເອົາເມຍໃນສະໄໜ່ກອ່ນແຕ່ວີທີນີ້ແມ່ນການເອົາແບບງາ່ຍ ຕາມຮິດຄອງຂອງຊົນເຜົ່າມົ້ງໃນສະໄໜ່ກອ່ນຖ້າວ່າເຮົາຮັກຖືກລູກສາວເຂົາແຕ່ເຂົາບໍ່ຮັກເຮົາກໍ່ຕາມໃຊ້ວີທີ່ນີ້ໂລດບໍ່ຜີດເພາະເອົາມາເປັນເມຍຊື່ໆ ແຕ່ໃນປັດຈູບັນນີ້ບໍ່ເຮັດແບບນັ້ນລະ ຄອ່ຍລົມກັນໄປຖ້າຫາກຮັກກັນລະຄອ່ຍເອົາກັນ</i></p>
-                            
-                        </div>
-                        <div class="col-sm-3 mt-5">
-                            <img id="p" class="img-fluid" src="img/f (19).jpg" style="width:500px;" height="800px;">
-                            
-                            <h4 class="mt-3"><i>His work ໄດ້ເລີ່ມຕົ້ນຈາກການເດີນທາງຂອງລາວຜູ້ຊາຍຄົນໜື່ງທີ່ມີນາມວ່າ herkha ທີ່ໄດ້ເດີ່ນທາງໄປຫາຊົນເຜົ່າຕ່າງໆຢູ່ທົ່ວປະເທດໂດຍຫວັງວ່າຈະນຳເອົາຜົນງານ ທີ່ປານີດຂອງກຸ່ມຊົນເຜົ່າທີ່ດວ້ຍໂອກາດມາເຜີຍເເຜ່ສາຍຕາຂອງຄົນທົ້ວໂລກ</i></h4>
-                           
-                        </div>
-                       
-                    </div>
-                    
-                        <nav id="lu" class="navbar navbar-expand-sm sticky-top navbar-kark">
-                    <div class="container-fluid">
-                        <ul class="navbar nav">
-                            <li nav-item>
-                                <a class="nav-link text-white" href="index.html">ໜ້າຫຼັກ</a>
-                            </li>
-                            <li nav-item>
-                                <a class="nav-link text-white" href="ປະຫວັດຄວາມເປັນມາ.html">ປະຫວັດຄວາມເປັນມາ</a>
-                            </li>
-                            <li nav-item >
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle text-white" href="" role="button" data-bs-toggle="dropdown">
-                                        ບູນປະເພນີ
-                                    </a>
-                                    <ul class="dropdown-menu" >
-                                    <li><a class="dropdown-item" href="ນຸງຖື.html">ການນຸງຖືຂອງມົ້ງ</a></li>
-                                    <li><a class="dropdown-item" href="ອາຊີບ.html">ອາຊີບ</a></li>
-                                    <li><a class="dropdown-item" href="ບູນປະເພນີ.html">ບຸນປະເພນີຂອງເຜົ່າມົ້ງ</a></li>
-                                </ul>
-                            </li>
-                            <li nav-item>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-white" href="" role="button" data-bs-toggle="dropdown">
-                                ພື້ນທີ່ຕັ້ງເຮືອນຂອງມົ້ງ
-                            </a>
-                             <ul class="dropdown-menu">
-                            
-                                    <li><a class="dropdown-item" href="">ພາສາປາກເວົ້າ</a></li>
-                                    <li><a class="dropdown-item" href="ທີ່ຕັ້ງ.html">ທີ່ຕັ້ງ</a></li>
-                                </ul>
-                            </li>
-                            <li nav-item>
-                                <a class="nav-link text-white" href="ຮູບພາບ.html">ຮູບພາບ</a>
-                            </li>
-                            <li nav-item>
-                            <a class="nav-link text-white" href="develop.html">ຜູ້ພັດທະນາ</a>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Fashion Store </title>
+
+        <!-- CSS FILES -->
+
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.12.1/font/bootstrap-icons.min.css">
+
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/bootstrap-icons.css" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/slick.css"/>
+
+        <link href="css/tooplate-little-fashion.css" rel="stylesheet">
+       <link rel="stylesheet" href="body.css">
+<!--
+
+Tooplate 2127 Little Fashion
+
+https://www.tooplate.com/view/2127-little-fashion
+
+-->
+    </head>
+    
+    <body>
+
+        <section class="preloader">
+            <div class="spinner">
+                <span class="sk-inner-circle"></span>
+            </div>
+        </section>
+    
+        <main>
+
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <a class="navbar-brand" href="index.html">
+                        <strong><span>Little⭐💗</span> Fashion</strong>
+                    </a>
+
+                    <div class="d-lg-none">
+                        <a href="sign-in.html" class="bi-person custom-icon me-3"></a>
+
+                        <a href="product-detail.html" class="bi-bag custom-icon"></a>
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="index.html">ໜ້າຫຼັກ</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">ກຽ່ວກັບພວກເຮົາ</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="products.html">ສີນຄ້າ</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="faq.html">ຄຳຄີດເຫັນ</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">ຕີດຕໍ່</a>
                             </li>
                         </ul>
+                        <div class="d-none d-lg-block">
+                            <a href="sign-in.html" class="bi-person custom-icon me-3"></a>
+
+                            <a href="product-detail.html" class="bi-bag custom-icon"></a>
+                        </div>
                     </div>
-                </nav>
-                    
+                </div>
+            </nav>
+            <section class="slick-slideshow">   
+                <div class="slick-custom">
+                    <img src="images/slideshow/aaa.jpg" class="img-fluid" alt="">
+
+                    <div class="slick-bottom">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6 col-10">
+                                    <h1 class="slick-title">  ສະຖານທີ່ Cool Fashion</h1>
+
+                                    <p class="lead text-white mt-lg-3 mb-lg-5">Little fashion ບ້ານ .... ເມືອງ ... ແຂວງ.... .</p>
+
+                                    <a href="about.html" class="btn custom-btn">ຮຽນຮູ້ເພື່ອເຕີ່ມກຽ່ວກັບພວກເຮົາ</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slick-custom">
+                    <img src="images/slideshow/bbb.jpg" class="img-fluid" alt="">
+
+                    <div class="slick-bottom">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6 col-10">
+                                    <h1 class="slick-title">ການອອກແບບ ໃໝ່ໆ </h1>
+
+                                    <p class="lead text-white mt-lg-3 mb-lg-5"> ຖ້າສີນຄ້າໂຕໃດ ມີການ Update ພວກເຮົາຈະແຈ້ງທັນທີ ແລະ ນຳເຂົ້າສີນຄ້າໃໝ່ໆເລີຍໆ.</p>
+
+                                    <a href="products.html" class="btn custom-btn">ສົ່ງອອກສີນຄ້າ</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slick-custom">
+                    <img src="images/slideshow/278934e72490e89024d0ae33acc1cfecdc581cf2_1620.jpg" class="img-fluid" alt="">
+
+                    <div class="slick-bottom">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6 col-10">
+                                    <h1 class="slick-title">ສືກສາກັບພວກເຮົາ</h1>
+
+                                    <p class="lead text-white mt-lg-3 mb-lg-5">ທາງຮ້ານຂອງພວກເຮົາຈະມີພະນັກງານບໍລິການທ່ານຢູ່  24 ຊົ່ວໂມງ ຍີນດີຕອນຮັບທ່ານຢູ່ສະເໝີ.</p>
+
+                                    <a href="contact.html" class="btn custom-btn">ທຳງານກັບພວກເຮົາ</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="about section-padding">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-12 text-center">
+                            <h2 class="mb-5">ຈຸດເລີ່ມຕົ້ນກັບ ຮ້ານ <span>Little</span> 💓Fashion</h2>
+                        </div>
+
+                        <div class="col-lg-2 col-12 mt-auto mb-auto">
+                            <ul class="nav nav-pills mb-5 mx-auto justify-content-center align-items-center" id="pills-tab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">ຄຳແນະນຳ</button>
+                                </li>
+
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="pills-youtube-tab" data-bs-toggle="pill" data-bs-target="#pills-youtube" type="button" role="tab" aria-controls="pills-youtube" aria-selected="true">ເຮັດວຽກແນວໃດ?</button>
+                                </li>
+
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="pills-skill-tab" data-bs-toggle="pill" data-bs-target="#pills-skill" type="button" role="tab" aria-controls="pills-skill" aria-selected="false">ຊ່ວຍເຫຼືອ</button>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-10 col-12">
+                            <div class="tab-content mt-2" id="pills-tabContent">
+                                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+
+                                    <div class="row">
+                                        <div class="col-lg-7 col-12">
+                                            <img src="images/pim-chu-z6NZ76_UTDI-unsplash.jpeg" class="img-fluid a" alt="">
+                                        </div>
+
+                                        <div class="col-lg-5 col-12">
+                                            <div class="d-flex flex-column h-100 ms-lg-4 mt-lg-0 mt-5">
+                                                <h4 class="mb-3">ການອອກແບບ <span>ທີ່ດີ</span> <br>ຄວາມຄີດການອອກແບບໃຫ້ຕົງກັບຄວາມ <span>ຕ້ອງການຂອງລູກຄ້າ</span> ທີ່ຢາກໄດ້ fashion</h4>
+
+                                                <p> ຮ້ານ Little Fashion ໄດ້ສ້າງຂື້ນມາເພື່ອໃຫ້ກັບບຸກຄົນທີ່ຢູ່ໃນໂລກນີ້ໃຫ້ຮັບ ການນູ່ງຖືກແບບມີ effect ຕາມນີດໃສຂອງຕົນ ຖ້າສົນໃຈກໍ່ກົດ<a href="sign-in.html">sign in</a> / <a href="sign-up.html">sign up</a> ໜ້າຕາອຸປະກອນ, ສີນຄ້າ, ການຜະລີດຕະພັນທີ່ມີຄູນນະພາບ, ສາມາດຕີດຕໍ່ໄດ້ .</p>
+
+                                                <p>ເຊິ່ງທາງຮ້ານຂອງພວກເຮົາ ຍີນດີຕອນຮັບທ່ານຢູ່ສະເໝີ ແລະ ພະນັັກງານພ້ອມໃຫ້ບໍລິການລູກຄ້າຢ່າງມີກຽ່ດ.</p>
+
+                                                <div class="mt-2 mt-lg-auto">
+                                                    <a href="about.html" class="custom-link mb-2">
+                                                        ຮຽນຮູ້ເພື່ອເຕີ່ມກຽ່ວກັບພວກເຮົາ
+                                                        <i class="bi-arrow-right ms-2"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="tab-pane fade" id="pills-youtube" role="tabpanel" aria-labelledby="pills-youtube-tab">
+
+                                    <div class="row">
+                                        <div class="col-lg-7 col-12">
+                                            <div class="ratio ratio-16x9">
+                                             <img src="images/a.jpg" class="img-fluid a" alt="">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-5 col-12">
+                                            <div class="d-flex flex-column h-100 ms-lg-4 mt-lg-0 mt-5">
+                                                <h4 class="mb-3">ປະສົບການ</h4>
+
+                                                <p>ທ້າງຮ້ານເຮົາ ມີພະນັກງານທີ່ມີປະສົບການໃນການອອກແບບໃຫ້ຕົງກັບຄວາມຕ້ອງການຂອງທ່ານຢູ່ແລ້ວ ແລະ ພວກເຮົາກໍ່ອອກແບບ fashion ແຕ່ລະລຸ່ນເສື້ອຜ້າ ໄວ້ໃນຮ້ານ ຖ້າຫາກວ່າທ່ານຕ້ອງການແບບທີ່ທ່ານຢາກໄດ້ກໍ່ສາມາດ ສັ່ງຕັດໃນຮ້ານໄດ້ </p>
+
+                                                <p>ແລະ ສີນຄ້າບໍວ່າໂຕໃດໃນຮ້ານາກໍ່ໄດ້ຮັບ ປະສີດຕີພາບ ແລະ ຄູນນະພາບສູງ </p>
+
+                                                <div class="mt-2 mt-lg-auto">
+                                                    <a href="contact.html" class="custom-link mb-2">
+                                                        ຖ້າສົນໃຈສະໝັກວຽກກໍ່ສາມາດກົດນີ້ໄດ້.
+                                                        <i class="bi-arrow-right ms-2"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="tab-pane fade" id="pills-skill" role="tabpanel" aria-labelledby="pills-skill-tab">
+                                    <div class="row">
+                                        <div class="col-lg-7 col-12">
+                                            <img src="images/cody-lannom-G95AReIh_Ko-unsplash.jpeg" class="img-fluid a" alt="">
+                                        </div>
+
+                                        <div class="col-lg-5 col-12">
+                                            <div class="d-flex flex-column h-100 ms-lg-4 mt-lg-0 mt-5">
+                                                <h4 class="mb-3">ພວກເຮົາສາມາດຊ່ວຍເຫຼືອໄດ້ໃຫ້ທ່ານ </h4>
+
+                                                <p>ໃນການມີປະສົບການ ຫຼາຍກວ່າ 3 ປີ ພວກເຮົາສາມາດຊ່ວຍ ໃຫ້ມີຄວາມໜັ້ນໃຈ ແລະ ສີນຄ້າຂອງພວກເຮົາລ້ວມແຕ່ມີຄູນນະພາບ ທ່ານບໍ່ຜີດຫວັງແນ່ນອນ ຮັບປະກັນ 100%</p>
+
+                                                <div class="skill-thumb mt-3">
+
+                                                    <strong>ເບຣດ (Branding)</strong>
+                                                        <span class="float-end text-success">90%</span>
+                                                            <div class="progress">
+                                                                <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div>
+                                                            </div>
+
+                                                    <strong>ຍຸດທະສາດໃນການອອກແບບ</strong>
+                                                        <span class="float-end text-success">70%</span>
+                                                            <div class="progress">
+                                                                <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div>
+                                                            </div>
+
+                                                    <strong> ອອນລາຍ (Online Platform)</strong>
+                                                        <span class="float-end text-success">80%</span>
+                                                            <div class="progress">
+                                                                <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
+                                                            </div>
+
+                                                </div>
+                                                
+                                                <div class="mt-2 mt-lg-auto">
+                                                    <a href="products.html" class="custom-link mb-2">
+                                                        ສົ່ງອອກສີນຄ້າ
+                                                        <i class="bi-arrow-right ms-2"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="front-product">
+                <div class="container-fluid p-0">
+                    <div class="row align-items-center">
+
+                        <div class="col-lg-6 col-12">
+                            <img src="images/retail-shop-owner-mask-social-distancing-shopping.jpg" class="img-fluid a" alt="">
+                        </div>
+
+                        <div class="col-lg-6 col-12">
+                            <div class="px-5 py-5 py-lg-0">
+                                
+                                <h2 class="mb-4"><span>ທາງຮ້ານເຮົາຍັງມີການ</span>ຂາຍຍອ່ຍ</h2>
+
+                                <p class="lead mb-4">ຖ້າສີນຄ້າໂຕໃດ ທາງຮ້ານເຮົານຳເຂົ້າ ເປັນຄູ່ ຫຼື ເປັນຊຸດ ພວກເຮົາ ກໍ່ສາມາດຂາຍຍອ່ຍໄດ້ຕາມຄວາມຕ້ອງການຂອງ ລູກຄ້າ .</p>
+
+                                <a href="products.html" class="custom-link">
+                                    ຄົ້ນຫາສີນຄ້າ
+                                    <i class="bi-arrow-right ms-2"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="featured-product section-padding">
+                <div class="container">
+                    <div class="row">
+                        
+                        <div class="col-12 text-center">
+                            <h2 class="mb-5">ຜະລີດຕະພັນທີ່ໂດດເດັ່ງ </h2>
+                        </div>
+
+                        <div class="col-lg-4 col-12 mb-3">
+                            <div class="product-thumb">
+                                <a href="product-detail.html">
+                                    <img src="images/aa.jpeg" class="img-fluid product-image" alt="">
+                                </a>
+
+                                <div class="product-top d-flex">
+                                    <span class="product-alert me-auto">ສີນຄ້າພ້ອມສົ່ງ</span>
+
+                                    <a href="#" class="bi-heart-fill product-icon"></a>
+                                </div>
+
+                                <div class="product-info d-flex">
+                                    <div>
+                                        <h5 class="product-title mb-0">
+                                            <a href="product-detail.html" class="product-title-link">ເສື້ອ fashion </a>
+                                        </h5>
+                                        <p class="product-p">ສີນຄ້າທີ່ໄດ້ຮັບຄວາມນີ້ຍົມ</p>
+                                    </div>
+
+                                    <small class="product-price text-muted ms-auto mt-auto mb-5">235,000 ກີບ <s class="text-danger">250,000 ກິບ</s></small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-12 mb-3">
+                            <div class="product-thumb">
+                                <a href="product-detail.html">
+                                    <img src="images/product/jordan-nix-CkCUvwMXAac-unsplash.jpeg" class="img-fluid product-image" alt="">
+                                </a>
+
+                                <div class="product-top d-flex">
+                                    <span class="product-alert">ລາຄາຖືກ</span>
+
+                                    <a href="#" class="bi-heart-fill product-icon ms-auto"></a>
+                                </div>
+
+                                <div class="product-info d-flex">
+                                    <div>
+                                        <h5 class="product-title mb-0">
+                                            <a href="product-detail.html" class="product-title-link">ຊຸດ fashion</a>
+                                        </h5>
+
+                                        <p class="product-p">ລາຄາທີ່ສວ່ຍງາມ</p>
+                                    </div>
+
+                                
+                                    <small class="product-price text-muted ms-auto mt-auto mb-5">169,000 ກີບ <s class="text-danger">200,000 ກິບ</s></small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-12">
+                            <div class="product-thumb">
+                                <a href="product-detail.html">
+                                    <img src="images/OIP (1).jpeg" class="img-fluid product-image" alt="">
+                                </a>
+
+                                <div class="product-top d-flex">
+                                    <a href="#" class="bi-heart-fill product-icon ms-auto"></a>
+                                </div>
+
+                                <div class="product-info d-flex">
+                                    <div>
+                                        <h5 class="product-title mb-0">
+                                            <a href="product-detail.html" class="product-title-link">ເສືອ Fashion</a>
+                                        </h5>
+
+                                        <p class="product-p">ສີນຄ້າທີ່ໄດ້ຮັບຄວາມນີ້ຍົມ</p>
+                                    </div>
+
+                                    <small class="product-price text-muted ms-auto mt-auto mb-5">269,000 ກີບ <s class="text-danger">300,000 ກິບ</s></small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-12">
+                            <div class="product-thumb">
+                                <a href="product-detail.html">
+                                    <img src="images/product/shoe.jpeg" class="img-fluid product-image" alt="">
+                                </a>
+
+                                <div class="product-top d-flex">
+                                    <a href="#" class="bi-heart-fill product-icon ms-auto"></a>
+                                </div>
+
+                                <div class="product-info d-flex">
+                                    <div>
+                                        <h5 class="product-title mb-0">
+                                            <a href="product-detail.html" class="product-title-link">ເກີບ Fashion</a>
+                                        </h5>
+
+                                        <p class="product-p">ສີນຄ້າທີ່ໄດ້ຮັບຄວາມນີ້ຍົມ</p>
+                                    </div>
+
+                                    <small class="product-price text-muted ms-auto mt-auto mb-5">300,000 ກີບ <s class="text-danger">399,000 ກິບ</s></small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-12">
+                            <div class="product-thumb">
+                                <a href="product-detail.html">
+                                    <img src="images/product/OIP (4).jpeg" class="img-fluid product-image" alt="">
+                                </a>
+
+                                <div class="product-top d-flex">
+                                    <a href="#" class="bi-heart-fill product-icon ms-auto"></a>
+                                </div>
+
+                                <div class="product-info d-flex">
+                                    <div>
+                                        <h5 class="product-title mb-0">
+                                            <a href="product-detail.html" class="product-title-link">ເກີບ Fashion</a>
+                                        </h5>
+
+                                        <p class="product-p">ສີນຄ້າທີ່ໄດ້ຮັບຄວາມນີ້ຍົມ</p>
+                                    </div>
+
+                                    <small class="product-price text-muted ms-auto mt-auto mb-5">300,000 ກີບ <s class="text-danger">399,000 ກິບ</s></small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-12">
+                            <div class="product-thumb">
+                                <a href="product-detail.html">
+                                    <img src="images/product/OIP (3).jpeg" class="img-fluid product-image" alt="">
+                                </a>
+
+                                <div class="product-top d-flex">
+                                    <a href="#" class="bi-heart-fill product-icon ms-auto"></a>
+                                </div>
+
+                                <div class="product-info d-flex">
+                                    <div>
+                                        <h5 class="product-title mb-0">
+                                            <a href="product-detail.html" class="product-title-link">ເກີບ Fashion</a>
+                                        </h5>
+
+                                        <p class="product-p">ສີນຄ້າທີ່ໄດ້ຮັບຄວາມນີ້ຍົມ</p>
+                                    </div>
+
+                                    <small class="product-price text-muted ms-auto mt-auto mb-5">300,000 ກີບ <s class="text-danger">399,000 ກິບ</s></small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 text-center mt-4">
+                            <a href="products.html" class="view-all">ເລືອກສີນຄ້າເພີ່ມເຕີ້ມ</a>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <footer class="site-footer">
+            <div class="container">
                 <div class="row">
-                    <div class="col-sm-6 mt-5 bg-info">
-                        <label for=""> ແຜ່ນທີ່ປະເທດລາວ</label>
-                       <img id="a" class="img-top" src="img/index.jpg" style="width: 100%;" height="600px">
-                    </div>
-                    <div class="col-sm-6  mt-5 bg-secondary">
-                        <label for="">ໂລກ</label>
-                        <img id="b" class="img-top" src="img/mmm.jpg" width="100%" height="600px">
-                    </div>
-                </div>
-                </nav>
-            </div>
-            <div id="onone" class="card-footer text-center">
-                <div class="row">
-                    <div class="col-lg-4 col-md-4 mb-5">
-                        <h4 class="mt-3">ຖ້າວ່າທ່ານສົມໃຈຕີດຕໍ່ໄດ້</h4>
-                        <p><i class="fa fa-map-marker-alt mr-2"></i>    BCT college for IT education</p>
-                        <p><i class="fa fa-phone-alt mr-2"></i>call:   +856 76900587</p>
-                        <p><i class="fa fa-envelope mr-2"></i> email:   herkhaloveyou@gmail.com</p>
-                </div>
-                <div class="col-lg-4 col-md-4 mb-5">
-                <h4 class="text-dark mb-4 mt-3">ຕີດຕໍ່</h4>
-                <div class="d-flex flex-column justify-content-start">
-                    <p class="text-dark">ພັດທະນາໂດຍນັກສືກສາ ບີຊີທີ ປິ1 </p>
-                    <p class="text-dark">ກຽ່ວກັບພວກເຮົາ</p>
-                    <p class="text-dark">ຂ່າວ</p>
-                    <p class="text-dark">ເພື້ອນຮວ່ມງານ</p>
-                </div>
-            </div>
-                <div class="col-lg-4 col-md-6 mb-5 ">
-                    <h2 class="text-dark mt-3">ຂ່າວໄໝ່</h2>
-                    <form action="">
-                        <div class="form-group">
-                            <input id="d" type="text" class="form-control" placeholder="Your name.."required="required">
-                        </div>
+
+                    <div class="col-lg-3 col-10 me-auto mb-4">
+                        <h4 class="text-white mb-3"><a href="index.html">Little</a> Fashion</h4>
+                        <p class="copyright-text text-muted mt-lg-5 mb-4 mb-lg-0">ສ້າງຂື້ນໃນປີ 2025 <strong class="text-white"> ເຊີ່ງເອີ່ນວ່າ ຮ້ານ Little Fashion</strong></p>
                         <br>
-                        <div class="form-group ">
-                            <input id="e" type="email" class="form-control" placeholder="Your email..">
-                        </div>
-                        <br>
-                        <div>
-                            <button id="f" class="btn btn-outline-success bg-info" type="submit">Submit Now</button>
-                        </div>
-                    </form><br><br>
-                    <ion-icon class=" bg-primary btn btn-outline-danger" name="logo-youtube"></ion-icon>
-                    <ion-icon class=" bg-danger btn btn-outline-primary" name="logo-facebook"></ion-icon>
-                    <ion-icon class=" bg-info btn btn-outline-success" name="logo-whatsapp"></ion-icon>
-                    <ion-icon class=" bg-success btn btn-outline-info" name="ios-apps"></ion-icon>
+                        <p class="copyright-text">ຂຽນໂດຍ: <a href="https://www.facebook.com/share/1BbAQ2xkHN/" target="_blank">ທ້າວ ເຮີ່ ຄ້າ </a></p>
+                    </div>
+
+                    <div class="col-lg-5 col-8">
+                        <h5 class="text-white mb-3"> ແຜນຜັງ Website</h5>
+
+                        <ul class="footer-menu d-flex flex-wrap">
+                            <li class="footer-menu-item"><a href="about.html" class="footer-menu-link">ກຽ່ວກັບພວກເຮົາ</a></li>
+
+                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">ສີນຄ້າ</a></li>
+
+                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">ປະສີດຕີພາບຄູນນະພາບ</a></li>
+
+                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">ຂໍ້ມູນເພີ່ມເຕີ່ມ</a></li>
+
+                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">ຕີດຕໍ່</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-4">
+                        <h5 class="text-white mb-3">Social</h5>
+
+                        <ul class="social-icon">
+
+                            <li><a href="#" class="social-icon-link bi-youtube"></a></li>
+
+                            <li><a href="#" class="social-icon-link bi-whatsapp"></a></li>
+
+                            <li><a href="#" class="social-icon-link bi-instagram"></a></li>
+
+                            <li><a href="#" class="social-icon-link bi-skype"></a></li>
+                        </ul>
+                    </div>
+
+                </div>
             </div>
-        </div>
-</body>
+        </footer>
+
+        <!-- JAVASCRIPT FILES -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/Headroom.js"></script>
+        <script src="js/jQuery.headroom.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script src="js/custom.js"></script>
+
+    </body>
 </html>
